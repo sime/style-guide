@@ -4,6 +4,7 @@ module.exports = {
       {
         name: 'Basics',
         include: [
+          'src/components/text/merge/Headline/Headline.jsx',
           'src/components/subject-icons/merge/SubjectIcon/SubjectIcon.jsx',
           'src/components/math-symbols/merge/MathSymbol/MathSymbol.jsx',
           'src/components/logo/Logo.jsx',
