@@ -41,6 +41,7 @@ module.exports = {
           'src/components/spinner-container/SpinnerContainer.jsx',
           'src/components/flex/Flex.jsx',
           'src/components/box/Box.jsx',
+          'src/components/media/merge/Media/Media.jsx',
         ],
       },
     ],
