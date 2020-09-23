@@ -43,6 +43,7 @@ module.exports = {
           'src/components/box/Box.jsx',
           'src/components/media/merge/Media/Media.jsx',
           'src/components/overlayed-box/merge/OverlayedBox/OverlayedBox.jsx',
+          'src/components/toplayer/TopLayer.jsx',
         ],
       },
     ],

@@ -14,7 +14,7 @@ export const SIZE = {
 };
 
 export type PropsType = {
-  children: Node,
+  children: React$Node,
   onClose?: (SyntheticMouseEvent<HTMLDivElement>) => mixed,
   onCloseButtonKeyDown?: (
     event: SyntheticKeyboardEvent<HTMLInputElement>
