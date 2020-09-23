@@ -35,6 +35,23 @@ export const BUTTON_TOGGLE = Object.freeze({
   BLUE: 'blue',
 });
 
+type ButtonTypeType =
+  | 'solid-light'
+  | 'outline'
+  | 'transparent'
+  | 'transparent-light'
+  | 'solid'
+  | 'solid-inverted'
+  | 'solid-blue'
+  | 'solid-mint'
+  | 'transparent-peach'
+  | 'transparent-mustard'
+  | 'transparent-blue'
+  | 'transparent-inverted'
+  | 'facebook';
+
+type ButtonToggleType = 'peach' | 'mustard' | 'blue';
+
 type ButtonSizeType = 'l' | 'm' | 's';
 
 type ButtonColorType =
@@ -97,8 +114,8 @@ export type ButtonPropsType = {
    *            button
    *          </Button>
    */
-  type: $Values<typeof BUTTON_TYPE>,
-  toggle?: null,
+  type: ButtonTypeType,
+  toggle?: ButtonToggleType,
   /**
    * You can render icon inside each type of button on the left side
    * @example <Button
