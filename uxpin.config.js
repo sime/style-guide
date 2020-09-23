@@ -16,7 +16,7 @@ module.exports = {
         name: 'Components',
         include: [
           'src/components/buttons/Button.jsx',
-          'src/components/counters/Counter.jsx',
+          'src/components/counters/merge/Counter/Counter.jsx',
           'src/components/dropdowns/Dropdown.jsx',
           'src/components/labels/Label.jsx',
           'src/components/avatar/Avatar.jsx',
