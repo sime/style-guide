@@ -20,7 +20,7 @@ module.exports = {
           'src/components/buttons/Button.jsx',
           'src/components/counters/merge/Counter/Counter.jsx',
           'src/components/dropdowns/Dropdown.jsx',
-          'src/components/labels/Label.jsx',
+          // 'src/components/labels/Label.jsx',
           'src/components/avatar/Avatar.jsx',
           'src/components/bubble/Bubble.jsx',
           'src/components/file-handler/FileHandler.jsx',
