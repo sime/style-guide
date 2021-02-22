@@ -21,6 +21,7 @@
     "yarn": "^1.0.0"
   },
   "dependencies": {
+    "@bojagi/cli": "^0.14.2-next.1",
     "classnames": "^2.2.5"
   },
   "devDependencies": {

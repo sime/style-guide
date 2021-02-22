@@ -24,3 +24,4 @@ temp
 /src/images/*.js
 /src/docs/_includes/components/
 /src/docs/_data/package.json
+.bojagi
